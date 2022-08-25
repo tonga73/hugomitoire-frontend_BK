@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.font-cinzel {
+  font-family: Cinzel, serif;
+}
+.font-reggae  {
+  font-family: "Reggae One", cursive;
+}
+
+/*
+h1,
+h2,
+h3 {
+  line-height: 1.1;
+}
+
+p {
+  max-width: 60ch;
+}
+*/
