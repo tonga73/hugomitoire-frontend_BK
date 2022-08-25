@@ -1,5 +1,10 @@
 import React from "react";
+import { Admin } from "../features/admin/Admin";
 
-export default function Admin() {
-  return <div>olis</div>;
+export function AdminView() {
+  return (
+    <div className="w-full">
+      <Admin />
+    </div>
+  );
 }

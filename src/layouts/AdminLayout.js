@@ -1,6 +1,8 @@
 import React from "react";
 import { Outlet, Link } from "react-router-dom";
 
+import { AdminPanel } from "../features/admin/components/AdminPanel";
+
 export default function AdminLayout() {
   return (
     <div className="bg-neutral-900 h-screen grid grid-cols-12">
@@ -22,6 +24,7 @@ export default function AdminLayout() {
           </svg>
         </Link>
         <Link to="new-book">+</Link>
+        <AdminPanel />
       </div>
       <div className="bg-neutral-300 col-span-7 flex justify-center">
         <Outlet />
